@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    text-align: center;
+    background: black;
+    color: white;
+}
+.rectangulo1{
+    width: 400px;
+    height: 400px;
+    background: green;
+}
+.rectangulo2{
+    width: 400px;
+    height: 400px;
+    background: rgb(228, 235, 228);
+}
+.rectangulo3{
+    width: 400px;
+    height: 400px;
+    background: rgb(211, 13, 13);
+}
+.circulo{
+    width: 140px;
+    height: 140px;
+    background: maroon;
+    border-radius: 50%;
+    position: absolute;
+    top: 180px;
+    left: 600px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
